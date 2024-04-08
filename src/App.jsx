@@ -1,5 +1,13 @@
+import { Hero, Highlights, Navbar } from './components';
+
 const App = () => {
-  return <h1 className='text-3xl font-bold underline'>Apple Website Clone</h1>;
+  return (
+    <main>
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
+  );
 };
 
 export default App;
